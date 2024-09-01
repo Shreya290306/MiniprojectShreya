@@ -1,112 +1,91 @@
-*{
-    padding: 0;
+/* miniproject.css */
+
+body {
+    font-family: 'Roboto', sans-serif;
     margin: 0;
-    box-sizing: border-box;
-}
-body{
-    padding:0;
-    margin:0;
-    overflow-x: hidden;
-}
-.spotify-head{
-    background-color: black;
- 
-
-   
-}
-.container{
-    padding-top: 2%;
-}
-.nav-right{
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-
-    
-   
-}
-.dropdown-menu
-{
-    width:100%;
-}
-.section{
-    
-    background-color: rgb(171, 46, 212);
-    
-}
-.back{
-    padding-top: 8%;
-    background: url(./image/bubbles-dktp.svg)!important ;
-    width: 100%;
-    height: auto;
-
+    padding: 0;
+    background-color: #121212;
+    color: white;
 }
 
- #button{
-   
-    height: 50px !important;
+.navbar {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link {
+    color: #b3b3b3;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #ffffff;
+}
+
+.mainImg {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.btn-circle {
     border-radius: 50px;
-    background-color: aliceblue !important;
-    color: black !important;
-    border: none;
- }   
-
-
-
-.section1{
-    background-color: rgb(255, 255, 255);
-
-}
-.Free{
-    padding-top: 15rem;
-    width: 100%;
-    height:40rem;
-
-    background-color: rgb(182, 51, 202);
-    font-size: 3.5rem;
-    font-weight: 800;
-
-}
-.section4{
-    
-    background-color: rgb(171, 46, 212);
-    
+    padding: 12px 30px;
+    background: linear-gradient(45deg, #1DB954, #1ED760);
+    transition: transform 0.3s ease-in-out;
 }
 
-.right h1{
-    font-size: 3rem;
-    font-weight: 800;
+.btn-circle:hover {
+    transform: scale(1.05);
 }
-.text1{
-    padding-top: 15rem;
-   
-    width: 100%;
-    height:40rem;
-    background: url(./image/bubbles-dktp.svg)!important ;
-    
-}
-.text1 h1{
-    font-size: 3.5rem;
-    font-weight: 800;
 
+.section {
+    background-image: url('spotify-background.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 80px 0;
 }
-.question{
-background-color: rgb(234, 213, 25);
-width: 100%;
-height:40rem;
-padding-top:7rem ;
-}
-.footer{
-    background-color: black;
-    
-}
-.insta{
-   font-size: 2rem;
-}
-.spotify h1{
-    font-weight: 800;
 
+.section1 {
+    padding: 60px 0;
 }
-.section3 h1{
-    font-weight: 800;
+
+.section2 {
+    background-color: #1DB954;
+    padding: 60px 0;
+}
+
+.section4 {
+    background-color: #535353;
+    padding: 60px 0;
+}
+
+.footer {
+    background-color: #181818;
+    padding: 40px 0;
+}
+
+.footer h5 {
+    color: #b3b3b3;
+}
+
+.footer .nav-link {
+    color: #b3b3b3;
+}
+
+.footer .nav-link:hover {
+    color: #ffffff;
+}
+
+.footer .link-white i {
+    color: #b3b3b3;
+    transition: color 0.3s ease-in-out;
+}
+
+.footer .link-white i:hover {
+    color: #ffffff;
 }
